@@ -1,0 +1,45 @@
+# Recreate the Vivado project with:
+#   vivado -mode batch -source create_project.tcl
+#
+# Keep rtl/, IP/*.xci, constraints/, sim/test_data/,
+# create_project.tcl, and README.md.
+
+# Vivado projects and everything they generate
+work/
+
+# Vivado scratch, logs, and products
+.Xil/
+*.jou
+*.log
+*.str
+*.debug
+*.backup.jou
+*.backup.log
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.xpr
+*.xpr.user
+*.dcp
+*.bit
+*.ltx
+*.bin
+*.mcs
+*.prm
+*.mmi
+*.pb
+*.wdb
+*.wcfg
+*.vcd
+webtalk*
+webtalk.jou
+*.zip
+
+# Editor scratch
+**/.clangd
+Thumbs.db
+Desktop.ini
+.DS_Store

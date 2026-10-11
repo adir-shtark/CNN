@@ -1,0 +1,3 @@
+this project is generate a neural network, with 4 layers, builds from nurons.
+the weights and biases for the nurons are generated separated to the hardwere, and stored at the xsim folder.
+there also training and testing files in xsim.
